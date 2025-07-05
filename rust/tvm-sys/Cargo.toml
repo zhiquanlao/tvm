@@ -24,7 +24,7 @@ edition = "2018"
 description = "Low level bindings to TVM's cross language API."
 
 [features]
-default = ["dynamic-linking"]
+default = ["runtime-only","dynamic-linking"]
 static-linking = []
 dynamic-linking = []
 runtime-only = []
