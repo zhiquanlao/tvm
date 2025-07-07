@@ -16,7 +16,9 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-
+#[allow(non_upper_case_globals)]
+pub const TVMArgTypeCode_kTVMArgBool: ffi::TVMArgTypeCode =
+    ffi::kTVMArgBool;
 use std::{
     convert::TryFrom,
     ffi::{CStr, CString},
