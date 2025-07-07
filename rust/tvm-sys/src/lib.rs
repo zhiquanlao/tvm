@@ -27,6 +27,9 @@
 //! the TVM API.
 
 /// The low-level C runtime FFI API for TVM.
+#[allow(non_upper_case_globals)]
+pub const TVMArgTypeCode_kTVMArgBool: ffi::TVMArgTypeCode =
+    ffi::kTVMArgBool;
 pub mod ffi {
     #![allow(non_camel_case_types, non_snake_case, non_upper_case_globals, unused)]
 
